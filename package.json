@@ -1,0 +1,18 @@
+{
+  "name": "h2-fuzz",
+  "version": "0.1.0",
+  "description": "",
+  "main": "h2-fuzz.js",
+  "scripts": {
+    "preinstall": "./init.sh",
+    "start": "node h2-fuzz.js"
+  },
+  "author": "Kelvin Jin (kelvinjin@google.com)",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "mz": "^2.6.0",
+    "readdirp": "^2.1.0",
+    "thenify": "^3.3.0"
+  }
+}
