@@ -1,11 +1,11 @@
 {
   "name": "h2-fuzz",
   "version": "0.1.0",
-  "description": "",
+  "description": "Fuzz-test a minimal http2 server",
   "main": "h2-fuzz.js",
   "scripts": {
     "preinstall": "./init.sh",
-    "start": "node h2-fuzz.js"
+    "start": "node index.js"
   },
   "author": "Kelvin Jin (kelvinjin@google.com)",
   "license": "MIT",
